@@ -296,9 +296,9 @@ nav li:hover {
     box-shadow: 0 0 8px 2px black;
 }
 
-.header-button:hover{
-      transition-duration: 0.2s;
-       box-shadow: 0 0 10px 2px black;
+.header-button .btn:hover{
+    background-color: #001931;
+      transition-duration: 0.4s;
 }
 
 .structure-btn-access button:hover{
