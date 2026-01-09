@@ -24,7 +24,43 @@
     font-weight: 600;
 
 }
+.note-card img{
+    background-color:#F95555 ;
+    border-radius: 20px;
+    padding: 10px 11px;
+    border-radius: 30px;
+}
+.note-card h2{
+    font-size: 24px;
+    font-weight: 600;
+    color:#001931 ;
+}
+.note-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px 24px;
+    gap:16px ;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px 0 #00000014 ;
+}
+.note-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+ 
+}
+.solution-container .solution-text .li-icon{
+    list-style-image:url(image/CheckCircle.png) ;
+    list-style-position:inside;
+   
 
+}
+
+
+/* main css */
 .header-container{
     display: flex;
     gap: 36px;
@@ -33,9 +69,7 @@
     padding: 16px 0 16px 0;
    
 }
-.header-container .header-image img{
-    /* margin: 16px 0 16px 0 ; */
-}
+
 nav ul {
     display: flex;
     gap: 32px;
@@ -104,4 +138,65 @@ line-height: 84px;
     display: flex;
     gap: 16px;
     justify-content: center;
+}
+
+.notes-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     padding-top: 70px;
+}
+.notes-text h1{
+    font-size:48px ;
+    font-weight: bold;
+    color: #001931;
+   margin-bottom: 16px;
+   text-transform: capitalize;
+}
+.notes-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.note-card-box{
+    display: flex;
+    gap: 24px;
+}
+.solution-container{
+    display: flex;
+    margin-top: 120px;
+    gap:60px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.solution-container .solution-text .solution-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.solution-container .solution-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution-container .solution-text .p-details{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.solution-container .solution-text li{
+     list-style: none;
+    margin-bottom:16px ;
+    color: #001931;
+
 }
