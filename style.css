@@ -283,3 +283,51 @@ footer{
   border-radius: 33px;
   padding: 2px 2px 2px 3px;;
 }
+
+/* hover */
+
+nav li:hover {
+    background-color: #469165;
+    border-radius: 5px;
+    padding: 15px;
+    transition-duration: 0.4s;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 8px 2px black;
+}
+
+.header-button:hover{
+      transition-duration: 0.2s;
+       box-shadow: 0 0 10px 2px black;
+}
+
+.structure-btn-access button:hover{
+     box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.454) ;
+}
+
+.structure-btn .btn1:hover{
+   background: transparent;
+   border: 3px solid #469165;
+   transition-duration: 0.4s;
+}
+.structure-btn-2:hover{
+    background-color: #30B868;
+    border: none;
+}
+
+.note-card:hover{
+      transition-duration: 0.4s;
+       box-shadow: 0 0 10px 0.5px black;
+}
+
+.ready-btn:hover{
+  
+    border: 4px solid #627382;
+    color: #F7F6F2;
+     transition-duration: 0.4s;
+     background-color: #001931;
+}
+
+.footer-icon:hover{
+     box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.454) ;
+}
